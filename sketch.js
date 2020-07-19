@@ -30,7 +30,7 @@ function draw() {
   wall.shapeColor=color(80,80,80)
   
 
-
+hasCollided();
 
 if(hasCollided(bullet,wall)){
   damage = 0.5 * speed * speed/(thickness *thickness*thickness);
